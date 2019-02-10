@@ -33,11 +33,6 @@ end
 
 def draw?(board)
   full?(board) && !won?(board) 
-  elsif !full?(board) && !won?(board)
-    false
-  elsif won?(board)
-    false
-  end
 end
 
 def over?(board)
